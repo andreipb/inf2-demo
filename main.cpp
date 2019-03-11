@@ -13,5 +13,11 @@ int main() {
         cout << "Maximum de a et b : " << maximum(a, b)
                 << " de type : " << typeid (maximum(a, b)).name() << endl;
     }
+       {
+        int  a = 32;
+        int b = 25;
+        cout << "Maximum de a et b : " << maximum(a, b)
+                << " de type : " << typeid (maximum(a, b)).name() << endl;
+    }
     return EXIT_SUCCESS;
 }
